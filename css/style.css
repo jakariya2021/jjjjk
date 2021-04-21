@@ -1,0 +1,695 @@
+*{
+	margin:0;
+	padding:0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+h1,h2,h3,h4,h5,h6,p,span,input,a{
+	font-family: 'Poppins', sans-serif;
+
+}
+
+.form-control {
+    padding: .8rem .75rem !important;
+    color: #f8f9fa !important;
+    background-color: #fcc302 !important;
+    border: 1px solid #fcc302 !important;
+    border-radius:0px;
+   
+   }
+   .input-group-text {
+    padding: .375rem 1.50rem;
+    background-color: #00bec9;
+    color: white;
+}
+  .nav-link{
+   	color:white !important;
+   	font-size:30px;
+   }
+.nav-item{
+	margin:0 20px;
+
+}
+
+
+
+section{
+	width:100%;
+	background-color:#fcc302;
+	padding:120px 0px;
+}
+section h1 {
+    font-size: 64px;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-top: 60px;
+}
+section p {
+    color: #ffffff;
+    font-size: 30px;
+    margin: 32px 0;
+    font-family: 'Poppins', sans-serif;
+}
+.btton-grp .btn-primary {
+    color: #fff;
+    background-color: #00bec9 !important;
+}
+.text-light {
+    color: #f8f9fa!important;
+}
+.ms-4 {
+    margin-left: 1.5rem!important;
+}
+.border-2 {
+    border-width: 2px!important;
+}
+
+.border {
+    border: 1px solid #dee2e6!important;
+}
+
+
+}
+ .btton-grp button:hover {
+    color: #fd7e14 !important;
+    background-color:white !important;
+}
+
+.service-1{
+	width:100%
+	background-color:#fff;
+	padding:80px;
+}
+
+
+
+.para h2 {
+    color: black;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-top: 50px;
+    padding-top: 30px;
+}
+.para p {
+    color: #313243;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    margin: 40px 0;
+}
+.btn-primary {
+    background-color: #ffc107!important;
+    border:none;
+}
+ .btn-primary:hover {
+    color: #fd7e14 !important;
+    background-color:white !important;
+}
+
+
+.sarvis-video{
+
+    position: relative;
+    z-index: 1;
+    margin-top:120px;
+    transition: 1s ease-in-out;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+
+}
+.shadow {
+    position: absolute;
+    background-color: rgba(252,195,2,0.6);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 233px;
+}
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: #fcc302;
+    bottom: -28px;
+    left: -28px;
+    position: absolute;
+    z-index: -1;
+}
+.icon {
+    position: absolute;
+    top: 34%;
+    left: 18%;
+}
+.icon i {
+    background-color: white;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    text-align: center;
+    border-radius: 100px;
+    color: #daac00;
+    font-size: 30px;
+}
+
+.cak-out{
+    background-color: rgb(252, 195, 2);
+    padding: 40px 0px;
+}
+.chak-bannar {
+    padding: 20px 0px;
+}
+.chak-bannar h1 {
+    padding-bottom: 20px;
+    color: white;
+    font-weight: 800;
+    font-size: 48px;
+    text-align: center;
+}
+
+
+.chak-bannar p {
+    text-align: center;
+    color: white;
+    font-size: 19px;
+    padding-bottom: 50px;
+}
+
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin-top:20%;
+}
+
+.doc-1 h4 {
+    padding-top: 25px;
+    padding-left: 19%;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.doc-1 p  {
+    padding-bottom: 0px;
+    padding-top: 20px;
+    padding-right: 84px;
+}
+.video-2{
+	position:relative;
+
+}
+.shadow-2 {
+    position: absolute;
+    background-color: rgba(252,195,2,.3);
+    top: 17%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.video-icon-2 {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    color: white;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 100%;
+    transform: rotate(
+178deg
+);
+    font-size: 18px;
+    background: #fcc302;
+}
+.box-2 {
+    height: 170px;
+    width: 170px;
+    background: #fcc302;
+    position: absolute;
+    right: -21px;
+    bottom: -19px;
+    z-index: -2;
+}
+
+
+.service {
+    padding-top: 100px;
+    padding-left: 80px;
+}
+.service h1 {
+    font-size: 46.86px;
+    color: #313243;
+    font-weight: 700;
+}
+
+.wer {
+    padding-left: 24%;
+}
+
+
+.service p {
+    font-size: 24px;
+    color: #313243;
+    padding: 22px 0;
+    padding-top: 22px;
+    padding-left: 10%;
+    font-weight: 700;
+}
+.button-ex .btn-danger {
+    position: absolute;
+    left: 73%;
+}
+.btn-danger {
+    background-color: #fcc302 !important;
+    border: none;
+}
+.shop{
+	margin-top:70px;
+}
+
+.shop-name h1 {
+    color: white;
+    font-size: 68px;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-align: center;
+}
+.price ul li .text-2 {
+    text-decoration: none !important;
+}
+.price ul li h4 {
+    text-decoration: line-through;
+}
+.price ul li h4 {
+    font-size: 40px;
+    padding-top: 10px;
+    padding-left: 1em;
+}
+
+.shop-name p {
+    color: white;
+    font-size: 19px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.price ul li {
+    list-style: none;
+    display: inline-block;
+    color: white;
+    font-size: 39px;
+    font-weight: 700;
+    
+
+}
+.infobtn {
+    border-radius: 180px;
+    padding: 7px 28px;
+    left: 12%;
+    font-size: 17px;
+    margin-left: 21%;
+    color: white;
+    background-color: #00bec9;
+}
+
+.vetcare-team {
+    padding: 60px 0;
+    background-color: white;
+}
+
+
+
+.vetcare-head h1 {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    padding-bottom: 20px;
+    color:black;
+}
+
+.vetcare-head p {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+    padding-bottom: 30px;
+    color:black;
+}
+
+
+.meet-vetcare h5 {
+    padding-top: 20px;
+    font-weight: 800;
+    font-size: 23px;
+    padding-left: 56px;
+}
+
+.meet-vetcare p {
+    font-weight: 600;
+    padding-left:50px;
+    color:black;
+}
+
+.meet-vetcare .li20 {
+    padding-left: 5.5em;
+}
+
+.meet-vetcare ul li {
+    list-style: none;
+    display: inline-block;
+    border-radius: 100%;
+}
+.meet-vetcare ul li a i {
+    height: 40px;
+    width: 40px;
+    background-color: #daac00;
+    border-radius: 100px;
+    line-height: 35px;
+    padding-left: 7.5px;
+        padding-top: 2px;
+}
+.meet-vetcare h5 {
+    padding-top: 20px;
+    font-weight: 800;
+    font-size: 23px;
+    padding-left: 56px;
+}
+.P50 {
+    padding-left: 90px !important;
+}
+
+
+
+
+
+.meet-vetcare ul li a {
+    color: white;
+    letter-spacing: 25px;
+    font-size: 30px;
+    text-align: center;}
+
+
+
+
+
+
+.history {
+    background-image: url(../img/lml.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255,177,16,.7);
+}
+.aboutus {
+    padding: 160px 0;
+    text-align: center;
+}
+a {
+    color: #0d6efd;
+    text-decoration: underline;
+}
+.aboutus a i {
+    color: white;
+    font-size: 80px;
+    padding-bottom: 20px;
+}
+.aboutus h5 {
+    color: white;
+    font-weight: 700;
+    padding-top: 10px;
+    font-size: 30px;
+}
+.aboutus h5 {
+    color: white;
+    font-weight: 700;
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+.recent-post {
+    padding: 60px 0;
+    background-color:white;
+}
+.recent h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size:54px;
+    color:black;
+}
+
+
+.recent p {
+    text-align: center;
+    font-size: 22px;
+    color: #313243;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.background {
+    box-shadow: 1px -1px 10px 2px;
+    width: 362px;
+    padding-bottom: 10px;
+     transition: 1.5s ease-in-out ;
+}
+.background h4 {
+    font-size: 26px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-weight: 700;
+    text-align: center;
+}
+.background h5 {
+    color: #00bec9;
+    font-weight: 700;
+    font-size: 17px;
+    padding-left: 10px;
+}
+
+.background p {
+    font-size: 21px;
+    padding: 0 10px;
+    color:black;
+}
+.background h6 a {
+    font-size: 17px;
+    color: #00bec9;
+    font-weight: 700;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+    
+
+
+
+.background:hover {
+    color: #fd7e14 !important;
+    background-color:white !important;
+    transform: scale(1.4)
+    
+}
+
+
+
+
+
+
+.lastbanner {
+    background-color: black;
+    padding: 60px 0;
+}
+.position {
+    padding: 40px 20px;
+}
+.list-1 h3 {
+    color: white;
+    font-weight: 700;
+    padding-bottom: 15px;
+    padding-bottom: 15px;
+    padding-left: 31px;
+}
+.list-1 ul li {
+    list-style: none;
+    margin-top: 10px;
+}
+.list-1 ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    margin-top: 14px;
+}
+.list-2 h3 {
+    color: white;
+    font-weight: 700;
+    text-align: right;
+}
+section p {
+    color: #ffffff;
+    font-size: 30px;
+    margin: 32px 0;
+    font-family: 'Poppins', sans-serif;
+}
+.mailbox {
+    position: absolute;
+    right: 190px;
+    height: 68px;
+    width: 350px;
+    background-color: #daac00;
+}
+.type button {
+    position: absolute;
+    right: 85px;
+    height: 68px;
+    width: 105px;
+    font-size: 30px;
+    background-color: #00bec9;
+    margin-top: .45px;
+}
+.type button a i {
+    color: white;
+}
+.lasticon ul {
+    margin-left: 21em;
+}
+.lasticon ul li {
+    list-style: none;
+    display: inline-block;
+    margin-top: 6em;
+    margin-left: 5px;
+    color: white;
+}
+
+.lasticon ul li a i {
+    color: white;
+    background-color: blue;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 40%;
+}
+.doc-1:hover {
+    color: #fd7e14 !important;
+    background-color:white !important;
+    transform: scale(1.4)
+    
+}
+
+
+. {
+    box-shadow: 1px -1px 10px 2px;
+    width: 362px;
+    padding-bottom: 10px;
+     transition: 1.5s ease-in-out ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
